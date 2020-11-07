@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700;900&display=swap');
 
 html {
-  background-color: #0e1f2a;
+  background-color: #0a161f;
   color: #737f8a;
 }
 body {
@@ -18,16 +18,29 @@ h1{
     color:  #ffffff;
   }
   
-h2,
+h2{
+    font-weight: 200;
+    font-size: 1em;
+    letter-spacing: 2px;
+    
+  line-height: 1.5;
+    font-family: "Poppins", sans-serif;
+    color:  #7fb9c7;
+  }
 h3,
 h4,
 h5,
 h6 {
+    margin-bottom: 40px;
   font-weight: 300;
-  font-size: 1em;
+  font-size: 0.8em;
   letter-spacing: 2px;
   font-family: "Poppins", sans-serif;
   color:  #757575;
+}
+.nav__link{
+    color:  #7fb9c7;
+
 }
 
 div.a {
